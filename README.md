@@ -9,14 +9,14 @@ Computer Vision Toolbox OCR Language Data,
 Computer Vision Toolbox Automated Visual Inspection Library  
   
   
-1.TextDetection  
+## 1.TextDetection  
 針對影像中的文字檢測並且標記，利用detectTextCRAFT模型。
 > AOI_TextDetection.mlx  
   
 ![image](https://github.com/MoonUsagi/AOI_Lab/blob/main/image/r01.JPG)  
 
 
-2.OCR  
+## 2.OCR  
 針對文字做辨識，在2023a後的版本中，OCR的裡面的模型改為是Tesseract 5.0，演算法核心Deep Learning base，
 架構為CNN+LSTM，所以整體精準度都有提高，目前也有62種語言與數字顯示器的辨識模型，並且可以在
 > AOI_DeepOCR.mlx  
