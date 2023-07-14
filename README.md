@@ -12,7 +12,7 @@ Computer Vision Toolbox Automated Visual Inspection Library
 1.TextDetection
 針對影像中的文字檢測並且標記，利用detectTextCRAFT模型。
 > AOI_TextDetection.mlx
-
+![image](https://github.com/MoonUsagi/AOI_Lab/blob/main/image/r01.JPG)
 
 
 2.OCR
@@ -21,6 +21,7 @@ Computer Vision Toolbox Automated Visual Inspection Library
 > AOI_DeepOCR.mlx  
 > AOI_TrainDeepOCR.mlx  
 > AOI_QuantizeOCR.mlx  
+![image](https://github.com/MoonUsagi/AOI_Lab/blob/main/image/r02.JPG)
 
 3.BarCodeRead
 針對一維與二維條碼，進行檢測與辨識。
