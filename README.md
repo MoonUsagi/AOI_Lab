@@ -35,3 +35,6 @@ Computer Vision Toolbox Automated Visual Inspection Library
 
 ## 4.Anomaly Detection  
 影像異常偵測與缺陷辨識
+> 
+![image](https://github.com/MoonUsagi/AOI_Lab/blob/main/image/ad01.PNG)  
+![image](https://github.com/MoonUsagi/AOI_Lab/blob/main/image/ad02.PNG)  
