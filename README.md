@@ -34,10 +34,10 @@ Computer Vision Toolbox Automated Visual Inspection Library
 
 
 ## 4.Anomaly Detection  
-影像異常偵測與缺陷辨識，2022b之後的版本更新了三種異常偵測的演算法，分別是：　　
-Fully convolitional data description(FCDD)　　
-FastFlow　　
-PatchCore　　
+影像異常偵測與缺陷辨識，2022b之後的版本更新了三種異常偵測的演算法，分別是：  　
+Fully convolitional data description(FCDD)  
+FastFlow  
+PatchCore  　
 
 > AOI_AnomalyDetection.mlx　　
 
