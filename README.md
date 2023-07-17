@@ -28,8 +28,8 @@ Computer Vision Toolbox Automated Visual Inspection Library
 3.BarCodeRead
 針對一維與二維條碼，進行檢測與辨識。
 > AOI_BardcodeRead.mlx  
-
-![image](https://github.com/MoonUsagi/AOI_Lab/blob/main/image/r05.JPG)  
+  
+![image](https://github.com/MoonUsagi/AOI_Lab/blob/main/image/r05.jpg)  
 
 
 
