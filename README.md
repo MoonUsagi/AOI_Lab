@@ -40,6 +40,12 @@ Computer Vision Toolbox Automated Visual Inspection Library
 |Fully Convolutional data description(FCDD)|fcddAnomalyDetector|  
 |FastFlow|fastFlowAnomalyDetector|
 |PatchCore|patchCoreAnomalyDetector|
+  
+| Youtube影片標題 | GiuHub專案 |
+|------|:---:|
+|[Fully Convolutional data description(FCDD)]|[fcddAnomalyDetector]|
+|[FastFlow]|[fastFlowAnomalyDetector]|
+|[PatchCore]|[patchCoreAnomalyDetector]|
 
 
 > AOI_AnomalyDetection.mlx　　
