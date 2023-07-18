@@ -41,11 +41,11 @@ Computer Vision Toolbox Automated Visual Inspection Library
 |FastFlow|fastFlowAnomalyDetector|
 |PatchCore|patchCoreAnomalyDetector|
   
-| Network | Function |
-|------|:---:|
-|Fully Convolutional data description(FCDD)|fcddAnomalyDetector<br>trainFCDDAnomalyDetector|
-|FastFlow|fastFlowAnomalyDetector|
-|PatchCore|patchCoreAnomalyDetector|
+| Network | Function |Notes|
+|------|:---:|:---:|
+|Fully Convolutional data description(FCDD)|fcddAnomalyDetector<br>trainFCDDAnomalyDetector||
+|FastFlow|fastFlowAnomalyDetector<br>trainFastFlowAnomalyDetector||
+|PatchCore|patchCoreAnomalyDetector<br>trainPatchCoreAnomalyDetector||
 
 
 > AOI_AnomalyDetection.mlx　　
