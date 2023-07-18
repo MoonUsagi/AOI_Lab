@@ -35,27 +35,14 @@ Computer Vision Toolbox Automated Visual Inspection Library
 
 ## 4.Anomaly Detection  
 影像異常偵測與缺陷辨識，2022b之後的版本更新了三種異常偵測的演算法，分別是:  
-<style>
-table th:first-of-type {
-    width: 20%;
-}
-table th:nth-of-type(2) {
-    width: 30%;
-}
-table th:nth-of-type(3) {
-    width: 50%;
-}
-</style>
-
+> AOI_AnomalyDetection.mlx　　
   
 | Network | Function |Notes|
 |---|:---:|-------|
 |FCDD|fcddAnomalyDetector<br>trainFCDDAnomalyDetector|．Light-weight model<br>．Fully convolutional<br>．Supports tiled training / full size inference workflow<br>|
 |FastFlow|fastFlowAnomalyDetector<br>trainFastFlowAnomalyDetector|．State-of-the-Art model<br>．Fully convolutional<br>．Supports tiled training / full size inference workflow<br>．Relatively Memory intensive|
 |PatchCore|patchCoreAnomalyDetector<br>trainPatchCoreAnomalyDetector|．State-of-the-Art model<br>．Feature similarity based(no gradient descent training involved)<br>．Few-shot training<br>．Fixed image size at train and test<br>．Relatively Memory intensive(Supports compression)|
-
-
-> AOI_AnomalyDetection.mlx　　
+  
 
 ![image](https://github.com/MoonUsagi/AOI_Lab/blob/main/image/ad01.PNG)  
 ![image](https://github.com/MoonUsagi/AOI_Lab/blob/main/image/ad02.PNG)
