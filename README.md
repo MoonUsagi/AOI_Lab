@@ -43,7 +43,7 @@ Computer Vision Toolbox Automated Visual Inspection Library
   
 | Network | Function |Notes|
 |------|:---:|-------|
-|Fully Convolutional data description(FCDD)|fcddAnomalyDetector<br>trainFCDDAnomalyDetector|Light-weight model<br>Fully convolutional<br>Supports tiled training / full size inference workflow<br>|
+|Fully Convolutional data description(FCDD)|fcddAnomalyDetector<br>trainFCDDAnomalyDetector|．Light-weight model<br>．Fully convolutional<br>．Supports tiled training / full size inference workflow<br>|
 |FastFlow|fastFlowAnomalyDetector<br>trainFastFlowAnomalyDetector||
 |PatchCore|patchCoreAnomalyDetector<br>trainPatchCoreAnomalyDetector||
 
