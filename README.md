@@ -44,6 +44,5 @@ Computer Vision Toolbox Automated Visual Inspection Library
 |PatchCore|patchCoreAnomalyDetector<br>trainPatchCoreAnomalyDetector|．State-of-the-Art model<br>．Feature similarity based(no gradient descent training involved)<br>．Few-shot training<br>．Fixed image size at train and test<br>．Relatively Memory intensive(Supports compression)|
   
 
-![image](https://github.com/MoonUsagi/AOI_Lab/blob/main/image/ad01.PNG)  
-![image](https://github.com/MoonUsagi/AOI_Lab/blob/main/image/ad02.PNG)
+![image](https://github.com/MoonUsagi/AOI_Lab/blob/main/image/ad03.PNG)  
   
