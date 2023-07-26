@@ -7,7 +7,9 @@ Bulit on 2023/07 by Fred Liu
 Computer Vision Toolbox Model for Text Detection,  
 Computer Vision Toolbox OCR Language Data,  
 Computer Vision Toolbox Automated Visual Inspection Library  
-  
+-----------------------------------------------------------------------------  
+Thanks for Alex Taylor Support anomaly detection
+
   
 ## 1.TextDetection  
 針對影像中的文字檢測並且標記，利用detectTextCRAFT模型。
