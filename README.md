@@ -38,9 +38,9 @@ Thanks for Alex Taylor Support anomaly detection
   
 ## 4.Anomaly Detection  
 影像異常偵測與缺陷辨識，2022b之後的版本更新了三種異常偵測的演算法，分別是:  
-> FCDD_Train.mlx
-> FastFlow_Train.mlx
-> PatchCore_Train.mlx
+> FCDD_Train.mlx  
+> FastFlow_Train.mlx  
+> PatchCore_Train.mlx  
   
   
 | Network | Function |Notes|
