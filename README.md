@@ -53,5 +53,11 @@ Thanks for Alex Taylor Support anomaly detection
 ![image](https://github.com/MoonUsagi/AOI_Lab/blob/main/image/ad03.PNG)  
   
 
-## 5.Vision Transformer
-
+## 5.Vit (Vision Transformer)
+利用ViT網路進行影像辨識(Classification)  
+> ViT.mlx  
+  
+Vision Transformer Model有三種Pretrain Model  
+- base  
+- small  
+- tiny  
