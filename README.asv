@@ -1,5 +1,6 @@
 # AOI Lab(影像辨識與檢測)
 Bulit on 2023/07 by Fred Liu  
+update 2024/02/20
 
 版本:MATALB: 2023a ~ 最新版本  
 需要工具箱: Deeplearning , Image Processing, Computer Vision, Parallel Computing  
@@ -7,7 +8,9 @@ Bulit on 2023/07 by Fred Liu
 Computer Vision Toolbox Model for Text Detection,  
 Computer Vision Toolbox OCR Language Data,  
 Computer Vision Toolbox Automated Visual Inspection Library  
-  
+-----------------------------------------------------------------------------  
+Thanks for Alex Taylor Support anomaly detection
+
   
 ## 1.TextDetection  
 針對影像中的文字檢測並且標記，利用detectTextCRAFT模型。
@@ -35,21 +38,14 @@ Computer Vision Toolbox Automated Visual Inspection Library
 
 ## 4.Anomaly Detection  
 影像異常偵測與缺陷辨識，2022b之後的版本更新了三種異常偵測的演算法，分別是:  
-| Network | Function | Description |
-|------|:---:|
-|Fully Convolutional data description(FCDD)|fcddAnomalyDetector|  
-|FastFlow|fastFlowAnomalyDetector|
-|PatchCore|patchCoreAnomalyDetector|
+> AOI_AnomalyDetection.mlx　　
   
 | Network | Function |Notes|
-|------|:---:|:---:|
-|Fully Convolutional data description(FCDD)|fcddAnomalyDetector<br>trainFCDDAnomalyDetector|
-|FastFlow|fastFlowAnomalyDetector|
-|PatchCore|patchCoreAnomalyDetector|
+|---|:---:|-------|
+|FCDD|fcddAnomalyDetector<br>trainFCDDAnomalyDetector|．Light-weight model<br>．Fully convolutional<br>．Supports tiled training / full size inference workflow<br>|
+|FastFlow|fastFlowAnomalyDetector<br>trainFastFlowAnomalyDetector|．State-of-the-Art model<br>．Fully convolutional<br>．Supports tiled training / full size inference workflow<br>．Relatively Memory intensive|
+|PatchCore|patchCoreAnomalyDetector<br>trainPatchCoreAnomalyDetector|．State-of-the-Art model<br>．Feature similarity based(no gradient descent training involved)<br>．Few-shot training<br>．Fixed image size at train and test<br>．Relatively Memory intensive(Supports compression)|
+  
 
-
-> AOI_AnomalyDetection.mlx　　
-
-![image](https://github.com/MoonUsagi/AOI_Lab/blob/main/image/ad01.PNG)  
-![image](https://github.com/MoonUsagi/AOI_Lab/blob/main/image/ad02.PNG)
+![image](https://github.com/MoonUsagi/AOI_Lab/blob/main/image/ad03.PNG)  
   
