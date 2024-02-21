@@ -61,3 +61,4 @@ Vision Transformer Model有三種Pretrain Model
 - base  
 - small  
 - tiny  
+![image](https://github.com/MoonUsagi/AOI_Lab/blob/main/5.VIT/ViT01.PNG) 
